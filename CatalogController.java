@@ -37,7 +37,7 @@ public class CatalogController {
 	void addItems() {
 		String sql = "INSERT INTO items(name, category, description, amount, price, kind) VALUES" +
 				"('item1', 'coka', 'hello world', 500, 120, 'kilo')," +
-				"('item2', 'jjjoka', 'hello e', 200, 1202, 'package')";
+				"('item2', 'jjjoka', 'hello emo', 200, 1202, 'package')";
 
 		try {
 			Statement smt = conn.createStatement();
